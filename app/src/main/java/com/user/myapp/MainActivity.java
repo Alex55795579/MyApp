@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private static final int LAYOUT = R.layout.activity;
     private Toolbar toolbar;
     private DrawerLayout drawerLayout;
-    private ImageButton imageButton;
+
 
 
     @Override
@@ -37,16 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
         initToolbar();
         initNavigationView();
-        imageButton = (ImageButton) findViewById(R.id.search_button);
-        View.OnClickListener oclImBtn = new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-            Intent intent = new Intent(MainActivity.this, AboutUs.class);
-                startActivity(intent);
-            }
-        };
-        imageButton.setOnClickListener(oclImBtn);
-
     }
 
     private void initToolbar(){
