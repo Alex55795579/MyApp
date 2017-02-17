@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e6580c</color>
+    <color name="colorPrimaryDark">#e11515</color>
+    <color name="mainBackground">#ffffff</color>
+
+    <color name="colorPrimaryF">#e6580c</color>
+    <color name="colorPrimaryDarkF">#0a0909</color>
+    <color name="mainBackgroundF">#ead513</color>
+
+    <color name="colorPrimaryS">#0c10e6</color>
+    <color name="colorPrimaryDarkS">#ff0101</color>
+    <color name="mainBackgroundS">#0fef1b</color>
+
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorBlue">#FF0CE6D4</color>
+</resources>

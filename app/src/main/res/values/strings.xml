@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="about_us">About us</string>
+    <string name="news">News</string>
+    <string name="images">Images</string>
+    <string name="videos">Videos</string>
+    <string name="help">Help</string>
+    <string name="contacts">Contacts</string>
+    <string name="view_news_open">Open</string>
+    <string name="view_news_close">Close</string>
+</resources>

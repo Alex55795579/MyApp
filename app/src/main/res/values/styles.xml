@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+    <style name="AppDefault" parent="AppTheme">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:colorControlNormal">@color/colorWhite</item>
+    </style>
+
+    <style name="AppFirst" parent="AppTheme">
+        <item name="android:colorPrimary">@color/colorPrimaryF</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkF</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppSecond" parent="AppTheme">
+        <item name="android:colorPrimary">@color/colorPrimaryS</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkS</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>
