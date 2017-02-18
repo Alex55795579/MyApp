@@ -1,6 +1,7 @@
 package com.user.myapp;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -9,6 +10,8 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 import com.user.myapp.DrawerActivities.AboutUs;
 import com.user.myapp.DrawerActivities.Contacts;
@@ -16,7 +19,6 @@ import com.user.myapp.DrawerActivities.Help;
 import com.user.myapp.DrawerActivities.Images;
 import com.user.myapp.DrawerActivities.News;
 import com.user.myapp.DrawerActivities.Videos;
-
 
 public class MainActivity extends AppCompatActivity {
 
@@ -51,7 +53,16 @@ public class MainActivity extends AppCompatActivity {
 
     private void initNavigationView(){
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        TextView textView = (TextView) findViewById(R.id.text2_view);
 
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri address = Uri.parse("http://Alex55795579@gmail.com");
+                Intent openlinkIntent = new Intent(Intent.ACTION_VIEW, address);
+                startActivity(openlinkIntent);
+            }
+        });
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.view_news_open, R.string.view_news_close);
         drawerLayout.setDrawerListener(toggle);
         toggle.syncState();
@@ -87,7 +98,6 @@ public class MainActivity extends AppCompatActivity {
                         intent = new Intent(MainActivity.this, Contacts.class);
                         startActivity(intent);
                         break;
-
                 }
                 return true;
             }

@@ -50,7 +50,9 @@
            android:layout_marginTop="130dp"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:text="@string/email_adress"/>
+           android:text="@string/email_adress"
+           android:onClick="onClick"
+           android:clickable="true"/>
        </android.support.design.widget.NavigationView>
 
 
