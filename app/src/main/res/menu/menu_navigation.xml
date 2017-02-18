@@ -34,6 +34,6 @@
         android:id="@+id/contactsItem"
         android:title="@string/contacts"
         android:orderInCategory="6"
-        android:icon="@drawable/contacts"
+        android:icon="@drawable/contact_mail"
         />
 </menu>

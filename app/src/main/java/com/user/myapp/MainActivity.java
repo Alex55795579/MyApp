@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout drawerLayout;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setTheme(R.style.AppDefault);
@@ -34,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         initToolbar();
         initNavigationView();
+
     }
 
     private void initToolbar(){
