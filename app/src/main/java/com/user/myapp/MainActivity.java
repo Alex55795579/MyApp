@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                         intent = new Intent(MainActivity.this, News.class);
                         startActivity(intent);
                         break;
-                    case R.id.activity_images:
+                    case R.id.imagesItem:
                         intent = new Intent(MainActivity.this, Images.class);
                         startActivity(intent);
                         break;
