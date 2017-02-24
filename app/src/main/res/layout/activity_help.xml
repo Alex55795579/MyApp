@@ -10,4 +10,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.user.myapp.DrawerActivities.Help">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/context_image"
+        android:src="@drawable/ic_plus_circle_black_48dp"
+        android:text="@string/image_context"/>
+
 </RelativeLayout>

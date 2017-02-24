@@ -3,10 +3,14 @@ package com.user.myapp.DrawerActivities;
 import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.user.myapp.MainActivity;
 import com.user.myapp.R;
@@ -40,7 +44,6 @@ public class Images extends MainActivity {
                     case R.id.im1_btn:
                         imageView.setImageDrawable(getResources().getDrawable(R.drawable.ic_contact_mail_black_18dp));
                         Log.d(TAG, "button 1 pressed");
-                        break;
                     case R.id.im2_btn:
                         imageView.setImageDrawable(getResources().getDrawable(R.drawable.ic_archive_black_18dp));
                         Log.d(TAG, "button 2 pressed");

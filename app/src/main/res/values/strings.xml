@@ -13,5 +13,13 @@
     <string name="im1_btn">image 1</string>
     <string name="im2_btn">image 2</string>
     <string name="im3_btn">default</string>
+    <string name="item_context1">picture 1</string>
+    <string name="item_context2">picture 2</string>
+    <string name="item_context3">picture 3</string>
+    <string name="image_context">context menu</string>
+    <string name="context_item_toast1">context toast 1</string>
+    <string name="context_item_toast2">context toast 2</string>
+    <string name="context_item_toast3">context toast 3</string>
+
 
 </resources>
