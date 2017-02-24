@@ -10,4 +10,8 @@
     <string name="view_news_close">Close</string>
     <string name="btn_main">MAIN</string>
     <string name="email_adress">Alex55795579@gmail.com</string>
+    <string name="im1_btn">image 1</string>
+    <string name="im2_btn">image 2</string>
+    <string name="im3_btn">default</string>
+
 </resources>
